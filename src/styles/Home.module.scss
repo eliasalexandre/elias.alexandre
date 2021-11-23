@@ -25,7 +25,7 @@
   }
 
   h1 {
-    font: 900 1.8rem "Inter", arial, sans-serif;
+    font: 900 3rem "Inter", arial, sans-serif;
     color: var(--secondary);
     transition: var(--global-transition);
 
@@ -38,6 +38,14 @@
     transition: var(--global-transition);
 
     margin: 0.5rem 0;
+    max-width: var(--text-limit);
+
+    span {
+      display: inline-block;
+      background: var(--white);
+      border-radius: 0.5rem;
+      padding: 0.1rem 0.3rem;
+    }
   }
 
   #controls {

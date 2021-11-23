@@ -7,16 +7,28 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>elias garcia alexandre</title>
-        <meta name="description" content="my profile description to the web" />
+        <meta name="description" content="My profile description to the web!" />
+
+        {/* basic SEO */}
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en" />
+        <meta property="og:title" content="Elias garcia alexandre" />
+        <meta
+          property="og:description"
+          content="My profile description to the web!"
+        />
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.mainContainer}>
         <div className={styles.photoBox}>
           <Image
+            width={180}
+            height={180}
+            layout="fixed"
+            draggable={false}
             id={styles.profilePhoto}
-            width="100"
-            height="100"
             src="https://github.com/eliasallex.png"
             alt="elias alexandre github profile photo"
           />
@@ -25,6 +37,10 @@ export default function Home() {
         <p>
           tech-focused programmer around the JavaScript language (React, RN,
           NodeJS).
+        </p>
+        <p>
+          I currently play more with Typescript, using web frameworks.{" "}
+          <span>in the IT area out of curiosity.</span>
         </p>
         <div id={styles.controls}>
           <a

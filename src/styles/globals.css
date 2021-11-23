@@ -21,7 +21,8 @@ body {
 
   --panel-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
   --global-transition: all 0.2s ease-in-out;
-  --max-coverage: 400px;
+  --max-coverage: 600px;
+  --text-limit: 400px;
 }
 
 @media (max-width: 1080px) {
