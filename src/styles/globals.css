@@ -12,20 +12,11 @@ body {
 }
 
 :root {
-  --primary: #5929cc;
-  --primary-light: #a386e8;
-  --primary-light-y: #835afd;
-
-  --secondary: #121212;
-
-  --white: #fff;
   --foreground: #f8f8f8;
-
-  --text-highlight: #b3b9ff;
-  --new: #2ea44f;
-
   --blue: #5965e0;
   --blue-dark: #4953b8;
+  --primary: #a386e8;
+  --secondary: #835afd;
 
   --panel-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
 
@@ -48,13 +39,6 @@ body {
   min-height: 100vh;
 
   background: var(--foreground);
-}
-
-body,
-input,
-textarea,
-button {
-  font: 400 1rem "Inter", sans-serif;
 }
 
 button {
