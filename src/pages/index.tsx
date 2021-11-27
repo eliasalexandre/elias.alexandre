@@ -42,6 +42,7 @@ export default function Home() {
           I currently play more with Typescript, using web frameworks.{" "}
           <span>in the IT area out of curiosity.</span>
         </p>
+        <p>I´ve played with other languages like Python, Java and C#...</p>
         <div id={styles.controls}>
           <a
             target="_blank"
